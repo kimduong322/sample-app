@@ -1,0 +1,18 @@
+vi:
+  home: "Trang chủ"
+  help: "Giúp đỡ"
+  log_in: "Đăng nhập"
+  about: "Giới thiệu"
+  contact: "Liên hệ"
+  english: "Tiếng Anh"
+  vietnamese: "Tiếng Việt"
+  news: "Bảng tin"
+
+  home:
+    welcome: "Chào mừng đến với Sample App"
+    description: "Đây là trang chủ của "
+  help:
+    description_ror_page: "Tìm thêm trợ giúp trong khóa học Ruby on Rails tại"
+    description_ror_book: "Để tìm thêm hướng dẫn về ứng dụng Sample, hãy đọc"
+  sign_up:
+    description: "Đây là trang đăng ký cho người dùng mới."

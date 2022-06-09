@@ -1,0 +1,69 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "color.scss";
+
+/* universal */
+
+body {
+  padding-top: 60px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: $logo_color;
+  text-transform: uppercase;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: $logo_color;
+  text-decoration: none;
+}
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid $fter_border_t_color;
+  color: $fter_color;
+
+  a {
+    color: $fter_a_tag_color;
+  }
+  a:hover {
+    color: $fter_a_hover_color;
+  }
+  small {
+    float: left;
+  }
+
+  ul {
+    float: right;
+    list-style: none;
+
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
+}

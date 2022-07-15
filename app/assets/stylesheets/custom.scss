@@ -39,33 +39,31 @@ textarea {
   text-decoration: none;
 }
 
-/* footer */
 
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: #777;
-}
+  border-top: 1px solid $fter_border_t_color;
+  color: $fter_color;
 
-footer a {
-  color: #555;
-}
+  a {
+    color: $fter_a_tag_color;
+  }
+  a:hover {
+    color: $fter_a_hover_color;
+  }
+  small {
+    float: left;
+  }
 
-footer a:hover {
-  color: #222;
-}
+  ul {
+    float: right;
+    list-style: none;
 
-footer small {
-  float: left;
-}
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
 
-footer ul {
-  float: right;
-  list-style: none;
-}
-
-footer ul li {
-  float: left;
-  margin-left: 15px;
 }
